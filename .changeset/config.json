@@ -1,9 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.2.0/schema.json",
-  "changelog": [
-    "@changesets/changelog-github",
-    { "repo": "andreafspeziale/monorepo" }
-  ],
+  "changelog": "@changesets/cli/changelog",
   "baseBranch": "develop",
   "updateInternalDependencies": "patch"
 }
