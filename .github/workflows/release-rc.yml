@@ -41,11 +41,12 @@ jobs:
         run: |
           git config user.name ${{ secrets.CI_GITHUB_USER }}
           git config user.email ${{ secrets.CI_GITHUB_EMAIL }}
+      - name: Setup registry
+        run: pnpm config set //npm.pkg.github.com/:_authToken ${{ secrets.GITHUB_TOKEN }}
       - name: Install dependencies
         run: pnpm install
       - name: Releasing
         run: |
-          pnpm config set //npm.pkg.github.com/:_authToken $GITHUB_TOKEN
           pnpm build
           pnpm changeset version
           pnpm changeset tag
@@ -53,5 +54,3 @@ jobs:
           git add .
           git commit -m "chore: release (rc)"
           git push --follow-tags
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

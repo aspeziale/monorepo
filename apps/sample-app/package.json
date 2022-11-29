@@ -38,9 +38,9 @@
   },
   "packageManager": "pnpm@7.17.1",
   "dependencies": {
-    "@aspeziale/common": "workspace:*",
-    "@aspeziale/logger": "workspace:*",
     "@andreafspeziale/nestjs-memcached": "3.2.3",
+    "@aspeziale/common": "1.0.0",
+    "@aspeziale/logger": "workspace:*",
     "@nestjs/common": "9.1.6",
     "@nestjs/config": "2.2.0",
     "@nestjs/core": "9.1.6",

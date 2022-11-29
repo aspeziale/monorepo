@@ -19,7 +19,7 @@ importers:
   apps/sample-app:
     specifiers:
       '@andreafspeziale/nestjs-memcached': 3.2.3
-      '@aspeziale/common': workspace:*
+      '@aspeziale/common': 1.0.0
       '@aspeziale/eslint-config-base': workspace:*
       '@aspeziale/jest-config-base': workspace:*
       '@aspeziale/logger': workspace:*
@@ -59,7 +59,7 @@ importers:
       zod: 3.19.1
     dependencies:
       '@andreafspeziale/nestjs-memcached': 3.2.3_yjxybkvltbh2d3oivnq5etx3oi
-      '@aspeziale/common': link:../../packages/common
+      '@aspeziale/common': 1.0.0_lygt63x6loedpr6mk5vo2oed3i
       '@aspeziale/logger': link:../../packages/logger
       '@nestjs/common': 9.1.6_x6yqyveuahcdef4z4mxykmuv6a
       '@nestjs/config': 2.2.0_yjxybkvltbh2d3oivnq5etx3oi
@@ -367,6 +367,25 @@ packages:
     transitivePeerDependencies:
       - chokidar
     dev: true
+
+  /@aspeziale/common/1.0.0_lygt63x6loedpr6mk5vo2oed3i:
+    resolution: {integrity: sha512-NJO3RyyE9ZAvpjRwOfMiW3YD5PA/dkQBFaU9WfRsfT8wYeVcDMaIAZlJw8ylG0s77Ts1u2zEv555DC++dIqB3A==, tarball: download/@aspeziale/common/1.0.0/a1a0084e2531ab2fe684a3ab4808690152f4c035}
+    engines: {node: '>=18.5.0'}
+    peerDependencies:
+      '@aspeziale/logger': 1.0.0
+      '@nestjs/common': 9.x
+      '@nestjs/swagger': 6.x
+      reflect-metadata: 0.1.x
+      rxjs: 7.x
+      zod: 3.x
+    dependencies:
+      '@aspeziale/logger': link:packages/logger
+      '@nestjs/common': 9.1.6_x6yqyveuahcdef4z4mxykmuv6a
+      '@nestjs/swagger': 6.1.2_h6kbnmnvyyl73y6mu4cczkstmm
+      reflect-metadata: 0.1.13
+      rxjs: 7.5.7
+      zod: 3.19.1
+    dev: false
 
   /@babel/code-frame/7.18.6:
     resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
