@@ -1,0 +1,26 @@
+{
+  "name": "@aspeziale/prettier-config-base",
+  "version": "1.0.0-rc.0",
+  "description": "Shared Prettier configuration",
+  "main": "index.js",
+  "author": "Andrea Francesco Speziale",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aspeziale/monorepo"
+  },
+  "bugs": {
+    "url": "https://github.com/aspeziale/monorepo/issues"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "peerDependencies": {
+    "prettier": "2.x"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

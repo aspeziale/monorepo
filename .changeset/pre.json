@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "rc",
+  "initialVersions": {
+    "sample-app": "1.0.0-rc.0",
+    "@aspeziale/eslint-config-base": "1.0.0-rc.0",
+    "@aspeziale/jest-config-base": "1.0.0-rc.0",
+    "@aspeziale/common": "1.0.0-rc.0",
+    "@aspeziale/logger": "1.0.0-rc.0",
+    "@aspeziale/prettier-config-base": "1.0.0-rc.0",
+    "@aspeziale/ts-config-base": "1.0.0-rc.0"
+  },
+  "changesets": []
+}

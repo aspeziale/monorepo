@@ -1,0 +1,7 @@
+{
+  "extends": "@aspeziale/ts-config-base/node18-strictest.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
