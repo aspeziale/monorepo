@@ -10,5 +10,7 @@
     "@aspeziale/prettier-config-base": "1.0.0",
     "@aspeziale/ts-config-base": "1.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "wicked-phones-work"
+  ]
 }
