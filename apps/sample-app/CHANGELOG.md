@@ -1,5 +1,13 @@
 # sample-app
 
+## 1.0.1-rc.2
+
+### Patch Changes
+
+- Updated dependencies [ddc7c0c]
+  - @aspeziale/logger@1.0.1-rc.0
+  - @aspeziale/common@1.1.0-rc.1
+
 ## 1.0.1-rc.1
 
 ### Patch Changes
